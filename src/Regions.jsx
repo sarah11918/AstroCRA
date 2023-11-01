@@ -1,7 +1,7 @@
 import React from "react"
 import {useState} from "react"
-import Container from "./Container.js"
-import RegionsList from "./RegionsList.js"
+import Container from "./Container.jsx"
+import RegionsList from "./RegionsList.jsx"
 
 export default function Regions(){
  

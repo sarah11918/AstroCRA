@@ -1,7 +1,7 @@
 import React from "react"
 import { useState } from "react"
-import Container from "./Container.js"
-import NotableBirdList from "./NotableBirdList.js"
+import Container from "./Container.jsx"
+import NotableBirdList from "./NotableBirdList.jsx"
 
 export default function Notable() {
     const [notableBirds, setNotableBirds] = useState([{comName:"", obsReviewed:""}])

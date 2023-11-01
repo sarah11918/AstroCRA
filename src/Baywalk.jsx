@@ -1,7 +1,7 @@
 import React from "react"
 import { useState } from "react"
-import Container from "./Container.js"
-import BaywalkBirdList from "./BaywalkBirdList.js"
+import Container from "./Container.jsx"
+import BaywalkBirdList from "./BaywalkBirdList.jsx"
 
 export default function Baywalk() {
     const [baywalkBirds, setBaywalkBirds] = useState([])

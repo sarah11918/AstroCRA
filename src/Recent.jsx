@@ -1,10 +1,10 @@
 import React from "react"
 import {useState} from "react"
-//import getSightings from '../utils/getSightings.js'
-import itemDetails from './utils/details.js'
-import LocationInput from "./LocationInput.js"
-import RecentBirdList from "./RecentBirdList.js"
-import Container from "./Container.js"
+//import getSightings from '../utils/getSightings.jsx'
+import itemDetails from './utils/details.jsx'
+import LocationInput from "./LocationInput.jsx"
+import RecentBirdList from "./RecentBirdList.jsx"
+import Container from "./Container.jsx"
 
 export default function Recent() {
   const [recentBirds, setRecentBirds] = useState([{comName:""}])

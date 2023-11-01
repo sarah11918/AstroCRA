@@ -1,9 +1,9 @@
 import React from "react"
 import { useState } from "react"
-import Container from "./Container.js"
-import SearchForm from "./SearchForm.js"
-import BirdData from "./BirdData.js"
-import ErrorMessage from "./ErrorMessage.js"
+import Container from "./Container.jsx"
+import SearchForm from "./SearchForm.jsx"
+import BirdData from "./BirdData.jsx"
+import ErrorMessage from "./ErrorMessage.jsx"
 
 export default function Home() {
   const [errorMessage, setErrorMessage] = useState(false)
